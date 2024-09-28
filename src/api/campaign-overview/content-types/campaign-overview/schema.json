@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campaign_overviews",
+  "info": {
+    "singularName": "campaign-overview",
+    "pluralName": "campaign-overviews",
+    "displayName": "CampaignOverview"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "month": {
+      "type": "enumeration",
+      "enum": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ]
+    },
+    "room_visited": {
+      "type": "integer"
+    },
+    "room_booked": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "staff_schedules",
+  "info": {
+    "singularName": "staff-schedule",
+    "pluralName": "staff-schedules",
+    "displayName": "StaffSchedule",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "staffName": {
+      "type": "string"
+    },
+    "department": {
+      "type": "enumeration",
+      "enum": [
+        "Front office",
+        "Back office",
+        "Kitchen",
+        "Guest room"
+      ]
+    },
+    "task": {
+      "type": "string"
+    },
+    "task_status": {
+      "type": "enumeration",
+      "enum": [
+        "Task completed",
+        "New task",
+        "In progress"
+      ]
+    },
+    "task_id": {
+      "type": "string"
+    },
+    "staff_id": {
+      "type": "integer"
+    }
+  }
+}
